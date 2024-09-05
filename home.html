@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Obala's Calc</title>
+  </head>
+  <body>
+    <div class="Links">
+      <ul>
+        <li>
+          <a href="colors.html"> Colors </a>
+        </li>
+        <table>
+          <tr>
+            <td><input type="text" name="display" id="display" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" value="7" onclick="NumberAdd('7')" />
+              <input type="button" value="8" onclick="NumberAdd('8')" />
+              <input type="button" value="9" onclick="NumberAdd('9')" />
+              <input type="button" value="/" onclick="NumberAdd('/')" />
+            </td>
+            <tr><td>
+              <input type="button" value="4" onclick="NumberAdd('4')" />
+              <input type="button" value="5" onclick="NumberAdd('5')" />
+              <input type="button" value="6" onclick="NumberAdd('6')" />
+              <input type="button" value="*" onclick="NumberAdd('*')" />
+            </td></tr>
+            
+            <tr><td>
+              <input type="button" value="1" onclick="NumberAdd('1')" />
+              <input type="button" value="2" onclick="NumberAdd('2')" />
+              <input type="button" value="3" onclick="NumberAdd('3')" />
+              <input type="button" value="-" onclick="NumberAdd('-')" />
+            </td>
+            </tr>
+            <td>
+              <input type="button" value="0" onclick="NumberAdd('0')" />
+              <input type="button" value="+" onclick="NumberAdd('+')" />
+              <input type="button" value="C" onclick="ClearOne('C')" />
+              <input type="button" value="CE" onclick="ClearAll('CE')" />
+            </td>
+            <tr><td>
+              <input type="button" value="=" onclick="Calculations('=')"/>
+            </td>
+            </tr>
+            </td>
+          </tr>
+        </table>
+      </ul>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>
